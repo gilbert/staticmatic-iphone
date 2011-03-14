@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    %title StaticMatic
+    = partial 'iphone/meta.html'
+    = stylesheets
+  %body
+    #container
+      = yield
+    = partial 'iphone/prevent-scroll.html'
+  
